@@ -107,7 +107,7 @@ export default {
     maxHeight: {
       // 表格最大高度
       type: Number,
-      default: 420
+      default: 480
     },
     showOperation: {
       // 是否显示操作组件

@@ -22,11 +22,15 @@ export default {
   props: {
     data: {
       type: Array,
-      default: []
+      default: function () {
+        return []
+      }
     },
     props: {
       type: Object,
-      default: {}
+      default: function () {
+        return {}
+      }
     },
     prop: {
       type: String,

@@ -36,9 +36,6 @@
             <el-tooltip content="列显示" placement="top">
               <el-button icon="fa fa-filter" @click="displayFilterColumnsDialog"></el-button>
             </el-tooltip>
-            <el-tooltip content="导出" placement="top">
-              <el-button icon="fa fa-file-excel-o"></el-button>
-            </el-tooltip>
           </el-button-group>
         </el-form-item>
       </el-form>
@@ -254,8 +251,7 @@ export default {
         { prop: 'deptName', label: '机构', minWidth: 120 },
         { prop: 'roleNames', label: '角色', minWidth: 100 },
         { prop: 'email', label: '邮箱', minWidth: 120 },
-        { prop: 'mobile', label: '手机', minWidth: 100 },
-        { prop: 'status', label: '状态', minWidth: 70 }
+        { prop: 'mobile', label: '手机', minWidth: 100 }
         // {prop:"createBy", label:"创建人", minWidth:120},
         // {prop:"createTime", label:"创建时间", minWidth:120, formatter:this.dateFormat}
         // {prop:"lastUpdateBy", label:"更新人", minWidth:100},

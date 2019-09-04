@@ -4,6 +4,8 @@ import * as login from './modules/login'
 import * as user from './modules/user'
 import * as menu from './modules/menu'
 import * as role from './modules/role'
+import * as course from './modules/course'
+import * as business from './modules/business'
 
 // 1. 开启/关闭[所有模块]拦截, 通过调[openMock参数]设置.
 // 2. 开启/关闭[业务模块]拦截, 通过调用fnCreate方法[isOpen参数]设置.
@@ -14,6 +16,8 @@ fnCreate(login, openMock)
 fnCreate(user, openMock)
 fnCreate(menu, openMock)
 fnCreate(role, openMock)
+fnCreate(course, openMock)
+fnCreate(business, openMock)
 
 /**
  * 创建mock模拟数据
